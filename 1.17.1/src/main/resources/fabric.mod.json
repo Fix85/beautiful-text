@@ -11,8 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/Fix85/text-krasiviy"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/text-krasiviy/icon.png",
+
 	"environment": "*",
 	"entrypoints": {
 		"main": [
