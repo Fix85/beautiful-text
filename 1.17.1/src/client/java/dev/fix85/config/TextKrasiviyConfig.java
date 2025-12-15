@@ -24,4 +24,3 @@ public class TextKrasiviyConfig implements ConfigData {
         return AutoConfig.getConfigHolder(TextKrasiviyConfig.class).getConfig();
     }
 }
-

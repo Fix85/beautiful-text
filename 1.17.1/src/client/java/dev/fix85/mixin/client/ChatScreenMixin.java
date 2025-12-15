@@ -1,7 +1,7 @@
 package dev.fix85.mixin.client;
 
 import dev.fix85.config.TextKrasiviyConfig;
-import net.minecraft.client.gui.screens.ChatScreen;
+import net.minecraft.client.gui.screen.ChatScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 public class ChatScreenMixin {
     
     @ModifyVariable(
-        method = "handleChatInput",
+        method = "sendMessage",
         at = @At("HEAD"),
         argsOnly = true,
         ordinal = 0
@@ -50,4 +50,3 @@ public class ChatScreenMixin {
         return prefix + message;
     }
 }
-

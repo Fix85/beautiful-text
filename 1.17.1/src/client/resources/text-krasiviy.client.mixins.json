@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.fix85.mixin.client",
+	"compatibilityLevel": "JAVA_16",
+	"client": [
+		"ExampleClientMixin",
+		"ChatScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
