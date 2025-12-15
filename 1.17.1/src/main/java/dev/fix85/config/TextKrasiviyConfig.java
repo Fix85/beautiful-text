@@ -13,7 +13,6 @@ public class TextKrasiviyConfig implements ConfigData {
     public boolean enabled = true;
     
     @ConfigEntry.Gui.Tooltip
-    @ConfigEntry.Gui.PrefixText
     public String prefix = "&6&l";
     
     public static void init() {

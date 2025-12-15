@@ -1,7 +1,6 @@
-package dev.fix85.mixin.client;
+package dev.fix85.mixin;
 
 import dev.fix85.config.TextKrasiviyConfig;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.ChatScreen;
 import net.minecraft.client.gui.widget.TextFieldWidget;
 import org.spongepowered.asm.mixin.Mixin;
@@ -18,7 +17,6 @@ public class ChatScreenMixin {
     
     @Inject(method = "keyPressed", at = @At("HEAD"))
     private void onKeyPressed(int keyCode, int scanCode, int modifiers, CallbackInfoReturnable<Boolean> cir) {
-        // Enter key = 257
         if (keyCode == 257) {
             if (!TextKrasiviyConfig.get().enabled) {
                 return;
