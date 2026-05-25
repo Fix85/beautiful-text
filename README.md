@@ -8,6 +8,9 @@
 
 A Minecraft Fabric mod that automatically formats your chat messages with Minecraft color and formatting codes.
 
+> This branch (`mc-1.21.4`) targets **Minecraft 1.21.4**.
+> For Minecraft 1.17.1 see [`mc-1.17.1`](https://github.com/Fix85/beautiful-text/tree/mc-1.17.1).
+
 ### Overview
 
 Beautiful Text automatically prepends a configurable formatting prefix to every chat message you send. Set the prefix once in Mod Menu — every message you type will appear with that style, without having to retype color codes by hand.
@@ -89,6 +92,9 @@ Released under CC0-1.0 — do whatever you want with it.
 ## Русский
 
 Мод для Minecraft Fabric, который автоматически форматирует ваши сообщения в чате цветовыми кодами Minecraft.
+
+> Эта ветка (`mc-1.21.4`) собрана под **Minecraft 1.21.4**.
+> Версия для Minecraft 1.17.1 — в ветке [`mc-1.17.1`](https://github.com/Fix85/beautiful-text/tree/mc-1.17.1).
 
 ### Описание
 
