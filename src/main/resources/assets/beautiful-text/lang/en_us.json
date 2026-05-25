@@ -1,0 +1,7 @@
+{
+    "text.autoconfig.beautiful-text.title": "Beautiful Text Settings",
+    "text.autoconfig.beautiful-text.option.enabled": "Enabled",
+    "text.autoconfig.beautiful-text.option.enabled.@Tooltip": "Enable or disable the mod",
+    "text.autoconfig.beautiful-text.option.prefix": "Prefix",
+    "text.autoconfig.beautiful-text.option.prefix.@Tooltip": "Prefix added to chat messages"
+}

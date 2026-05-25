@@ -6,22 +6,20 @@ import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
 import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
 
-@Config(name = "text-krasiviy")
-public class TextKrasiviyConfig implements ConfigData {
-    
+@Config(name = "beautiful-text")
+public class BeautifulTextConfig implements ConfigData {
+
     @ConfigEntry.Gui.Tooltip
     public boolean enabled = true;
-    
+
     @ConfigEntry.Gui.Tooltip
-    @ConfigEntry.Gui.PrefixText
     public String prefix = "&6&l";
-    
+
     public static void init() {
-        AutoConfig.register(TextKrasiviyConfig.class, GsonConfigSerializer::new);
+        AutoConfig.register(BeautifulTextConfig.class, GsonConfigSerializer::new);
     }
-    
-    public static TextKrasiviyConfig get() {
-        return AutoConfig.getConfigHolder(TextKrasiviyConfig.class).getConfig();
+
+    public static BeautifulTextConfig get() {
+        return AutoConfig.getConfigHolder(BeautifulTextConfig.class).getConfig();
     }
 }
-
