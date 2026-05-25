@@ -11,4 +11,3 @@ public class TextKrasiviyModMenu implements ModMenuApi {
         return parent -> AutoConfig.getConfigScreen(TextKrasiviyConfig.class, parent).get();
     }
 }
-

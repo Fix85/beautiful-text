@@ -6,7 +6,7 @@ import net.fabricmc.api.ClientModInitializer;
 public class TextKrasiviyClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		// Initialize config
+
 		TextKrasiviyConfig.init();
 	}
 }

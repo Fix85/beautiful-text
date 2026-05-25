@@ -1,42 +1,42 @@
 {
-	"schemaVersion": 1,
-	"id": "text-krasiviy",
-	"version": "${version}",
-	"name": "Text Krasiviy",
-	"description": "Я не даун, для Кридшета. СТРОИТЬ ФЕРМЫ НАДО!!!!",
-	"authors": [
-		"Fix85"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"dev.fix85.TextKrasiviy"
-		],
-		"client": [
-			"dev.fix85.TextKrasiviyClient"
-		],
-		"modmenu": [
-			"dev.fix85.TextKrasiviyModMenu"
-		]
-	},
-	"mixins": [
-		"text-krasiviy.mixins.json",
-		{
-			"config": "text-krasiviy.client.mixins.json",
-			"environment": "client"
-		}
-	],
-	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21.4",
-		"java": ">=21"
-	},
-	"suggests": {
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "text-krasiviy",
+  "version": "${version}",
+  "name": "Beautiful Text",
+  "description": "Automatic chat formatting: prefix every Minecraft chat message with custom color/format codes.",
+  "authors": [
+    "Fix85"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Fix85/beautiful-text",
+    "sources": "https://github.com/Fix85/beautiful-text",
+    "issues": "https://github.com/Fix85/beautiful-text/issues"
+  },
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.fix85.TextKrasiviy"
+    ],
+    "client": [
+      "dev.fix85.TextKrasiviyClient"
+    ],
+    "modmenu": [
+      "dev.fix85.TextKrasiviyModMenu"
+    ]
+  },
+  "mixins": [
+    "text-krasiviy.mixins.json",
+    {
+      "config": "text-krasiviy.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  },
+  "suggests": {
+    "fabric-api": "*"
+  }
 }

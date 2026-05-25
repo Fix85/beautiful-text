@@ -1,7 +1,7 @@
 {
-	"text.autoconfig.text-krasiviy.title": "Настройки Text Krasiviy",
-	"text.autoconfig.text-krasiviy.option.enabled": "Включён",
-	"text.autoconfig.text-krasiviy.option.enabled.@Tooltip": "Включить или выключить мод",
-	"text.autoconfig.text-krasiviy.option.prefix": "Префикс",
-	"text.autoconfig.text-krasiviy.option.prefix.@Tooltip": "Префикс добавляемый к сообщениям в чате"
+  "text.autoconfig.text-krasiviy.title": "Настройки Beautiful Text",
+  "text.autoconfig.text-krasiviy.option.enabled": "Включён",
+  "text.autoconfig.text-krasiviy.option.enabled.@Tooltip": "Включить или выключить мод",
+  "text.autoconfig.text-krasiviy.option.prefix": "Префикс",
+  "text.autoconfig.text-krasiviy.option.prefix.@Tooltip": "Префикс добавляемый к сообщениям в чате"
 }
