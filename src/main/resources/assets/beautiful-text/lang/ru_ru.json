@@ -1,0 +1,7 @@
+{
+    "text.autoconfig.beautiful-text.title": "Настройки Beautiful Text",
+    "text.autoconfig.beautiful-text.option.enabled": "Включён",
+    "text.autoconfig.beautiful-text.option.enabled.@Tooltip": "Включить или выключить мод",
+    "text.autoconfig.beautiful-text.option.prefix": "Префикс",
+    "text.autoconfig.beautiful-text.option.prefix.@Tooltip": "Префикс добавляемый к сообщениям в чате"
+}

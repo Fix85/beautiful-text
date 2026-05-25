@@ -1,7 +1,0 @@
-{
-  "text.autoconfig.text-krasiviy.title": "Beautiful Text Settings",
-  "text.autoconfig.text-krasiviy.option.enabled": "Enabled",
-  "text.autoconfig.text-krasiviy.option.enabled.@Tooltip": "Enable or disable the mod",
-  "text.autoconfig.text-krasiviy.option.prefix": "Prefix",
-  "text.autoconfig.text-krasiviy.option.prefix.@Tooltip": "Prefix added to chat messages"
-}

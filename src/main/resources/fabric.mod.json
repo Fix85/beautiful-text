@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "text-krasiviy",
+  "id": "beautiful-text",
   "version": "${version}",
   "name": "Beautiful Text",
   "description": "Automatic chat formatting: prefix every Minecraft chat message with custom color/format codes.",
@@ -15,19 +15,19 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.fix85.TextKrasiviy"
+      "dev.fix85.BeautifulText"
     ],
     "client": [
-      "dev.fix85.TextKrasiviyClient"
+      "dev.fix85.BeautifulTextClient"
     ],
     "modmenu": [
-      "dev.fix85.TextKrasiviyModMenu"
+      "dev.fix85.BeautifulTextModMenu"
     ]
   },
   "mixins": [
-    "text-krasiviy.mixins.json",
+    "beautiful-text.mixins.json",
     {
-      "config": "text-krasiviy.client.mixins.json",
+      "config": "beautiful-text.client.mixins.json",
       "environment": "client"
     }
   ],

@@ -1,6 +1,6 @@
 package dev.fix85.mixin.client;
 
-import dev.fix85.config.TextKrasiviyConfig;
+import dev.fix85.config.BeautifulTextConfig;
 import net.minecraft.client.gui.screens.ChatScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -17,7 +17,7 @@ public class ChatScreenMixin {
     )
     private String replaceExclamationMark(String message) {
 
-        if (!TextKrasiviyConfig.get().enabled) {
+        if (!BeautifulTextConfig.get().enabled) {
             return message;
         }
 
@@ -29,7 +29,7 @@ public class ChatScreenMixin {
             return message;
         }
 
-        String prefix = TextKrasiviyConfig.get().prefix;
+        String prefix = BeautifulTextConfig.get().prefix;
 
         if (message.startsWith("!")) {
             String restOfMessage = message.substring(1);
