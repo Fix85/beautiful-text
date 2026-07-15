@@ -8,8 +8,8 @@
 
 A Minecraft Fabric mod that automatically formats your chat messages with Minecraft color and formatting codes.
 
-> This branch (`mc-1.21.4`) targets **Minecraft 1.21.4**.
-> For Minecraft 1.17.1 see [`mc-1.17.1`](https://github.com/Fix85/beautiful-text/tree/mc-1.17.1).
+> This branch (`mc-26.1.2`) targets **Minecraft 26.1.2**.
+> Other versions live in `mc-*` branches: [1.17.1](https://github.com/Fix85/beautiful-text/tree/mc-1.17.1), [1.21.4](https://github.com/Fix85/beautiful-text/tree/mc-1.21.4), [1.21.8](https://github.com/Fix85/beautiful-text/tree/mc-1.21.8), [1.21.11](https://github.com/Fix85/beautiful-text/tree/mc-1.21.11), [26.1.2](https://github.com/Fix85/beautiful-text/tree/mc-26.1.2), [26.2](https://github.com/Fix85/beautiful-text/tree/mc-26.2).
 
 ### Overview
 
