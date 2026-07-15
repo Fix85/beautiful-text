@@ -12,12 +12,9 @@
     "sources": "https://github.com/Fix85/beautiful-text",
     "issues": "https://github.com/Fix85/beautiful-text/issues"
   },
-  "environment": "*",
+  "environment": "client",
   "icon": "assets/beautiful-text/icon.png",
   "entrypoints": {
-    "main": [
-      "dev.fix85.BeautifulText"
-    ],
     "client": [
       "dev.fix85.BeautifulTextClient"
     ],
@@ -26,11 +23,7 @@
     ]
   },
   "mixins": [
-    "beautiful-text.mixins.json",
-    {
-      "config": "beautiful-text.client.mixins.json",
-      "environment": "client"
-    }
+    "beautiful-text.client.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.17.2",
